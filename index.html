@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Benz's Port</title>
+	<link href="https://fonts.googleapis.com/css?family=Barrio|Inconsolata" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <script src="js/classie.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container clearfix">
+        <h1 id="logo">
+            Patrick Benz
+        </h1>
+        <nav>
+            <a href="#"><h2>Home</h2></a>
+            <a href="http://lmgtfy.com/?q=Hacktiv8" target="_blank"><h2>Hacktiv8</h2></a>
+            <a href="#random"><h2>Random</h2></a>
+        </nav>
+    </div>
+  </header>
+
+
+  <section>
+      <h1>About Me</h1>
+      <div id="about">
+        <div class="col" id="col1">
+          <h3>Lorem Post 1</h3>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex.
+          </p>
+        </div>
+        <div class="col" id="col2" style="margin-top: 65px">
+          <h3>Lorem Post 2</h3>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex.
+          </p>
+        </div>
+        <div class="col" id="col3" style="margin-top: 130px">
+          <h3>Lorem Post 3</h3>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex.
+          </p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div id="random">
+      	<div id="wordsRand">
+      		<h3>Random</h3>
+      		<p>This is a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very Random Section</p>
+      	</div>
+      </div>
+      <div class="clearfix"></div>
+  </section>
+
+
+  <footer>
+  	<h5>By Patrick Benz Imanuel - Hacktiv8</h5>
+  </footer>
+
+  <script type="text/javascript">
+	function init() {
+	    window.addEventListener('scroll', function(e){
+	        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+	            shrinkOn = 50,
+	            header = document.querySelector("header");
+	        if (distanceY > shrinkOn) {
+	            classie.add(header,"smaller");
+	        } else {
+	            if (classie.has(header,"smaller")) {
+	                classie.remove(header,"smaller");
+	            }
+	        }
+	    });
+	}
+	window.onload = init();
+  </script>
+</body>
+</html>
