@@ -7,3 +7,5 @@ html, head, body, footer, title, link, script, header, div, h1, nav, a, section,
 
 About Me: 
 Saya adalah seorang web-developer di perusaahan swasta di jakarta selatan. saya berharap untuk menjadi fullstack web-developer yang lebih "advanced"
+
+Future Plans: Saya ingin menerapkan library-library jquery yang menarik pada website saya agar tampak lebih menarik dan agar dapat memiliki fungsionalitas yang lebih berguna dan efisien.
